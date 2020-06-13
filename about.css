@@ -1,0 +1,121 @@
+body {
+    background-image: url("bb.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', serif;
+}
+
+header {
+    background: #999;
+    color: white;
+    padding: 5px 10px;
+}
+
+header h1 {
+    color: white;
+    display: inline;
+}
+
+nav ul { 
+    display: inline;
+    margin: 0;
+}
+
+nav ul li {
+    background: green;
+    color: white;
+    display: inline-block;
+    list-style-type: none;
+    padding: 5px 15px;
+}
+
+nav ul li a {
+    color: white;
+}
+
+nav ul li:hover {
+    background-color: #777;
+    color: white;
+}
+
+nav h1 a {
+    color: white;
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 200%;
+}
+
+.small {
+    line-height: 0.3;
+    width: 1000px;
+}
+
+.row:after {
+    clear: both;
+    content: " ";
+    display: table;
+
+}
+
+.col {
+    background: #328caf;
+    color: white;
+    padding: 10px .5%;
+    width: 31%;
+    margin: .5%;
+    float: left;
+    border-radius: 5px;
+}
+
+.highlight {
+    
+    padding: 5px;
+}
+
+.bold {
+    font-family: 'Source Sans Pro';
+    font-weight: 700;
+}
+
+.fhighlight {
+    background: #444;
+    padding: 5px;
+}
+
+footer {
+    color: white;
+    position: fixed;
+    bottom: 0;
+    height: auto;
+    left: 0;
+    right: 0;
+}
+
+#navigation {
+    background: none;
+    list-style-type: none;
+    display: block;
+    width: 20%;;
+}
+
+section ul li {
+    margin: 0;
+    padding: 0;
+}
+
+section ul li a {
+    display: block;
+    padding: 10px;
+    background-color: #999;
+    color: white;
+    text-decoration: none;
+}
+
+section ul li a:hover {
+    background-color: #777;
+    color: white;
+}
